@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS Square | Premium uPVC Windows & Doors</title>
+    <meta name="description" content="VS Square offers premium uPVC windows and doors in Chennai. Durable, elegant, and modern solutions for your home and office.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cinematic "Laser Trace & Shockwave Pulse" Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-grid-bg"></div>
+        <div class="preloader-scanlines"></div>
+        <div class="preloader-energy-glow"></div>
+        
+        <!-- Shockwave ring -->
+        <div class="preloader-shockwave"></div>
+        
+        <!-- Drifting Cyber Particles -->
+        <div class="preloader-cyber-particles">
+            <span class="cyber-p cp1"></span>
+            <span class="cyber-p cp2"></span>
+            <span class="cyber-p cp3"></span>
+            <span class="cyber-p cp4"></span>
+            <span class="cyber-p cp5"></span>
+            <span class="cyber-p cp6"></span>
+            <span class="cyber-p cp7"></span>
+            <span class="cyber-p cp8"></span>
+            <span class="cyber-p cp9"></span>
+            <span class="cyber-p cp10"></span>
+        </div>
+
+        <div class="preloader-title-card">
+            <!-- Central Brand Logo Mark -->
+            <div class="preloader-logo-wrap">
+                <svg width="140" height="140" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Glow filter definitions -->
+                    <defs>
+                        <filter id="laser-glow" x="-30%" y="-30%" width="160%" height="160%">
+                            <feGaussianBlur stdDeviation="3.5" result="blur" />
+                            <feMerge>
+                                <feMergeNode in="blur" />
+                                <feMergeNode in="SourceGraphic" />
+                            </feMerge>
+                        </filter>
+                    </defs>
+
+                    <!-- Accent Lines -->
+                    <line class="preloader-accent-line line-left" x1="12" y1="50" x2="27" y2="50" stroke="var(--accent)" stroke-width="3" stroke-linecap="round"/>
+                    <line class="preloader-accent-line line-right" x1="73" y1="50" x2="88" y2="50" stroke="var(--accent)" stroke-width="3" stroke-linecap="round"/>
+
+                    <!-- Overlapping Diamonds (electrified paths) -->
+                    <path class="preloader-diamond diamond-back" d="M 45 21 L 69 45 L 45 69 L 21 45 Z" stroke="white" stroke-width="2.5" stroke-linejoin="round"/>
+                    <path class="preloader-diamond diamond-front" d="M 55 31 L 79 55 L 55 79 L 31 55 Z" stroke="var(--accent)" stroke-width="2.5" stroke-linejoin="round"/>
+
+                    <!-- SVG Laser Tracing Dots -->
+                    <circle r="4.5" fill="white" filter="url(#laser-glow)" opacity="0">
+                        <animateMotion dur="1.5s" begin="0.2s" repeatCount="1" fill="freeze" path="M 45 21 L 69 45 L 45 69 L 21 45 Z"/>
+                        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" dur="1.5s" begin="0.2s" fill="freeze"/>
+                    </circle>
+                    
+                    <circle r="4.5" fill="var(--accent)" filter="url(#laser-glow)" opacity="0">
+                        <animateMotion dur="1.5s" begin="0.5s" repeatCount="1" fill="freeze" path="M 55 31 L 79 55 L 55 79 L 31 55 Z"/>
+                        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" dur="1.5s" begin="0.5s" fill="freeze"/>
+                    </circle>
+
+                    <!-- VS Text -->
+                    <g class="preloader-logo-text">
+                        <text x="50" y="56" fill="white" font-family="'Playfair Display', Georgia, serif" font-weight="700" font-size="20" text-anchor="middle">VS</text>
+                        <line x1="52.5" y1="38" x2="61.5" y2="38" stroke="white" stroke-width="1.5"/>
+                    </g>
+                </svg>
+            </div>
+            
+            <h1 class="preloader-brand-title">VS SQUARE</h1>
+            <p class="preloader-brand-sub">WINDOWS & DOORS</p>
+        </div>
+
+        <!-- Heat Blast Light Flood -->
+        <div class="light-flood"></div>
+    </div>
+
+    <!-- Preloader Load Script -->
+    <script>
+        window.addEventListener('load', () => {
+            const preloader = document.getElementById('preloader');
+            if (preloader) {
+                setTimeout(() => {
+                    preloader.classList.add('fade-out');
+                }, 3800); // synchronizes with the laser trace + shockwave peak flash reveal
+            }
+        });
+    </script>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <svg width="220" height="70" viewBox="0 0 250 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Horizontal Red Accent Lines -->
+                    <line x1="0" y1="48" x2="14" y2="48" stroke="var(--accent)" stroke-width="2.5"/>
+                    <line x1="210" y1="48" x2="250" y2="48" stroke="var(--accent)" stroke-width="2.5"/>
+
+                    <!-- Overlapping Offset Diamonds -->
+                    <!-- Top-Left Diamond -->
+                    <path d="M 36 22 L 58 44 L 36 66 L 14 44 Z" stroke="white" stroke-width="1.8"/>
+                    <!-- Bottom-Right Diamond -->
+                    <path d="M 44 30 L 66 52 L 44 74 L 22 52 Z" stroke="white" stroke-width="1.8"/>
+
+                    <!-- VS Text with Macron (Horizontal) -->
+                    <text x="40" y="53" fill="white" font-family="'Playfair Display', Georgia, serif" font-weight="700" font-size="16" text-anchor="middle">VS</text>
+                    <line x1="42.5" y1="38" x2="49.5" y2="38" stroke="white" stroke-width="1.2"/>
+
+                    <!-- SQUARE Text (Serif) -->
+                    <text x="80" y="55" fill="white" font-family="'Playfair Display', Georgia, serif" font-weight="700" font-size="28" letter-spacing="1.5">SQUARE</text>
+                    
+                    <!-- Windows & Doors Text (Serif) -->
+                    <text x="110" y="69" fill="white" font-family="'Playfair Display', Georgia, serif" font-weight="600" font-size="10.5" letter-spacing="0.5">Windows & Doors</text>
+
+                    <!-- Horizontal Measuring Tape Icon (Placed above SQUARE) -->
+                    <g>
+                        <!-- Top-Left Loop/Tab -->
+                        <circle cx="112" cy="17" r="2.5" fill="var(--accent)"/>
+                        <circle cx="112" cy="17" r="1" fill="white"/>
+                        
+                        <!-- Circular Housing -->
+                        <circle cx="120" cy="24" r="12" fill="var(--accent)"/>
+                        <circle cx="120" cy="24" r="7" stroke="white" stroke-width="2" fill="none"/>
+                        <circle cx="120" cy="24" r="3.5" fill="var(--primary)"/>
+                        
+                        <!-- Tape Ruler Extending Horizontally to the Right -->
+                        <path d="M 126 31 H 160 V 36 H 126" stroke="white" stroke-width="1.5" fill="none"/>
+                        <!-- Tape Ticks -->
+                        <path d="M 132 36 V 32 M 138 36 V 33 M 144 36 V 32 M 150 36 V 33 M 156 36 V 32" stroke="white" stroke-width="1"/>
+                    </g>
+                </svg>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active" style="color:var(--accent)">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" class="btn btn-primary">Get Quote</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Video Background -->
+    <section id="home" class="hero">
+        <video class="hero-video" autoplay loop muted playsinline>
+            <source src="https://assets.mixkit.co/videos/preview/mixkit-interior-of-a-modern-apartment-with-large-windows-43615-large.mp4" type="video/mp4">
+        </video>
+        <div class="container hero-container" style="position: relative; z-index: 2;">
+            <div class="hero-content" style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <span class="badge">Precision Engineering</span>
+                <h1>VS Square <br><span class="text-highlight">uPVC Solutions</span></h1>
+                <p style="margin-left: auto; margin-right: auto;">Premium uPVC Windows & Doors crafted with excellence. Enhance your living space with weather-resistant, aesthetically superior solutions designed for the modern lifestyle.</p>
+                <div class="hero-btns" style="justify-content: center;">
+                    <a href="contact.html" class="btn btn-primary">Book Consultation</a>
+                    <a href="services.html" class="btn btn-secondary">Explore Products</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3>1000+</h3>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat-item">
+                    <h3>10+</h3>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat-item">
+                    <h3>100%</h3>
+                    <p>Quality Assured</p>
+                </div>
+                <div class="stat-item">
+                    <h3>24/7</h3>
+                    <p>Support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section (Teaser) -->
+    <section id="services" class="services section">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-title">Our Products</span>
+                <h2>uPVC Windows & Doors</h2>
+                <div class="line"></div>
+            </div>
+            <div class="service-grid">
+                <div class="service-card">
+                    <div class="card-img">
+                        <img src="images/casement.png" alt="Casement Window">
+                    </div>
+                    <h3>Casement Windows</h3>
+                    <p>Traditional aesthetics meet modern technology with multi-point locking systems.</p>
+                </div>
+                <div class="service-card">
+                    <div class="card-img">
+                        <img src="images/sliding.png" alt="Sliding Door">
+                    </div>
+                    <h3>Sliding Doors</h3>
+                    <p>Seamless transitions between indoor and outdoor spaces with ultra-smooth tracks.</p>
+                </div>
+                <div class="service-card">
+                    <div class="card-img">
+                        <img src="images/villa.png" alt="Villa Window">
+                    </div>
+                    <h3>Villa Windows</h3>
+                    <p>Integrated bug mesh and grill for security and comfort without compromising style.</p>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 3.5rem;">
+                <a href="services.html" class="btn btn-primary">View All Products &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section (Teaser) -->
+    <section id="gallery" class="gallery section">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-title">Our Portfolio</span>
+                <h2>Recent Projects</h2>
+                <div class="line"></div>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/casement.png" alt="Project 1">
+                    <div class="gallery-overlay">
+                        <span>Casement Installation</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/sliding.png" alt="Project 2">
+                    <div class="gallery-overlay">
+                        <span>Sliding Door System</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/villa.png" alt="Project 3">
+                    <div class="gallery-overlay">
+                        <span>Villa Window Setup</span>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 3.5rem;">
+                <a href="gallery.html" class="btn btn-primary">Explore Full Gallery &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About/Story Section (Teaser) -->
+    <section class="founders-section section">
+        <div class="container flex-container">
+            <div class="content">
+                <span class="sub-title">Who We Are</span>
+                <h2 style="margin: 1rem 0;">Excellence in uPVC Fabrication</h2>
+                <p style="margin-bottom: 1.5rem; color:#666;">VS Square was founded by Sathish Kumar and Santhosh Kumar with a single mission: to design, manufacture, and install the highest quality uPVC windows and doors in Chennai.</p>
+                <p style="margin-bottom: 2rem; color:#666;">We bring energy efficiency, absolute soundproofing, and weatherproof durability to homes and offices using state-of-the-art German standards.</p>
+                <a href="about.html" class="btn btn-primary">Read Our Story &rarr;</a>
+            </div>
+            <div class="image-placeholder">
+                <div class="founder-divider" style="display:flex; justify-content:center; align-items:center; height: 100%; padding: 4rem;">
+                    <div class="divider-icon">
+                        <svg width="150" height="150" viewBox="0 0 50 50">
+                            <!-- Top-Left Diamond -->
+                            <path d="M 22 7 L 37 22 L 22 37 L 7 22 Z" stroke="var(--accent)" stroke-width="1.5" fill="none"/>
+                            <!-- Bottom-Right Diamond -->
+                            <path d="M 28 13 L 43 28 L 28 43 L 13 28 Z" stroke="var(--accent)" stroke-width="1.5" fill="none"/>
+                            
+                            <!-- VS Text with Macron (Horizontal) -->
+                            <text x="25" y="29.5" fill="var(--accent)" font-family="'Playfair Display', Georgia, serif" font-weight="700" font-size="11" text-anchor="middle">VS</text>
+                            <line x1="27" y1="18.5" x2="32" y2="18.5" stroke="var(--accent)" stroke-width="1"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quality Section -->
+    <section class="quality-section section bg-alt">
+        <div class="container flex-container">
+            <div class="image-placeholder">
+                <img src="images/hero.png" alt="Manufacturing Excellence" class="img-fluid">
+            </div>
+            <div class="content">
+                <h2>Why Choose VS Square?</h2>
+                <ul class="feature-list">
+                    <li>
+                        <strong>Weather Proof:</strong> Built to withstand Indian tropical climate.
+                    </li>
+                    <li>
+                        <strong>Sound Insulation:</strong> Drastically reduces outside noise.
+                    </li>
+                    <li>
+                        <strong>Energy Efficient:</strong> Reduces heat gain and saves on AC bills.
+                    </li>
+                    <li>
+                        <strong>No Maintenance:</strong> Corrosion-free and no painting required.
+                    </li>
+                </ul>
+                <div class="founders-info" style="margin-top: 2rem; border-top: 1px solid var(--secondary-accent); padding-top: 1.5rem;">
+                    <p style="font-size: 0.9rem; color: var(--accent); font-weight: 600; text-transform: uppercase; letter-spacing: 1px;">Founders</p>
+                    <h3 style="font-size: 1.2rem; margin-top: 0.5rem;">Sathish Kumar / Santhosh Kumar</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>Have a project in mind? Let's discuss how we can help you with the perfect window and door solutions.</p>
+                    
+                    <div class="info-item">
+                        <div class="icon">📍</div>
+                        <div class="text">
+                            <strong>Factory Address</strong>
+                            <p>No. 712/3A, A.P.H. Road, Moorthi Nagar, Avadi, Chennai - 600071</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="icon">📞</div>
+                        <div class="text">
+                            <strong>Contact Persons</strong>
+                            <p>Sathish Kumar: +91 63833 63702</p>
+                            <p>Santhosh Kumar: +91 91764 66676</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="icon">✉️</div>
+                        <div class="text">
+                            <strong>Email</strong>
+                            <p>vssquarewindowsdoors@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="gst-info">
+                        <strong>GSTIN:</strong> 33HNJPS3372C1ZW
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="quoteForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Tell us about your requirements" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-whatsapp btn-block">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="white" style="vertical-align:middle; margin-right: 8px;">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                            </svg>
+                            Send via WhatsApp
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <div class="section-header" style="padding-top: 4rem;">
+                <span class="sub-title">Find Us</span>
+                <h2>Our Factory Location</h2>
+                <div class="line"></div>
+                <p style="margin-top:1rem; color:#666;">No. 712/3A, A.P.H. Road, Moorthi Nagar, Avadi, Chennai - 600071</p>
+            </div>
+        </div>
+        <div class="map-wrapper">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3882.8!2d80.0983!3d13.1058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526440694a8c0b%3A0x7fc8e8b4cc0d63b5!2sA.P.H.%20Road%2C%20Moorthi%20Nagar%2C%20Avadi%2C%20Chennai%2C%20Tamil%20Nadu%20600071!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                width="100%"
+                height="450"
+                style="border:0; display:block;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="VS Square Factory Location - Avadi, Chennai">
+            </iframe>
+            <div class="map-pin-label">
+                <div class="pin-card">
+                    <span class="pin-icon">📍</span>
+                    <div>
+                        <strong>VS Square – Windows &amp; Doors</strong>
+                        <p>No. 712/3A, A.P.H. Road, Moorthi Nagar<br>Avadi, Chennai – 600071</p>
+                        <a href="https://maps.google.com/?q=Moorthi+Nagar+Avadi+Chennai+600071" target="_blank" class="map-directions-btn">Get Directions →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 VS Square. Founders: Sathish Kumar / Santhosh Kumar</p>
+                <div class="socials">
+                    <a href="#">Fb</a>
+                    <a href="#">In</a>
+                    <a href="#">Li</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/916383363702?text=Hello%20VS%20Square!%20I%20would%20like%20to%20enquire%20about%20your%20uPVC%20Windows%20%26%20Doors." 
+       target="_blank" 
+       class="whatsapp-float" 
+       title="Chat with us on WhatsApp">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="white">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+        Chat with Us
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
